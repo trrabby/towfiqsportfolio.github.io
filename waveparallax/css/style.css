@@ -1,0 +1,93 @@
+*{
+		padding: 0px;
+	}
+		
+	
+		#container{
+			background: linear-gradient(45deg,green, blue, gray);
+			height: 500px;
+			width: 100%;
+
+		}
+		#header{
+			background: linear-gradient(30deg, rgba(200, 0, 0, 1.0),rgba(0, 0, 200, 1.0));
+			height: 400px; width: 100%;
+			color: white;
+			margin-left: -10px;
+
+		}
+		.ARTICLE{
+			margin-top: 50px;
+			padding: 120px;
+			margin-left: 50px;
+			text-align: center;
+			/*text-shadow:*/
+		}
+		.design_{
+			height: 200px;
+			width: 200px;
+			background: white;
+			margin-top: -260px;
+			margin-left: 50px;
+			transform: rotate(-20deg)
+
+		}
+		.design__ {
+			height: 200px;
+			width: 200px;
+			background: gray;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(-15deg)
+
+		}
+		.design___{
+			height: 200px;
+			width: 200px;
+			background: white;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(-10deg)
+
+		}
+		.design____{
+			height: 200px;
+			width: 200px;
+			background: gray;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(-5deg)
+
+		}
+		.design_____{
+			height: 200px;
+			width: 200px;
+			background: white;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(5deg)
+
+		}
+		.design______{
+			height: 200px;
+			width: 200px;
+			background: gray;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(10deg)
+
+		}
+		.design_______{
+			height: 200px;
+			width: 200px;
+			background: white;
+			margin-top: -210px;
+			margin-left: 50px;
+			transform: rotate(12deg)
+
+		}
+		.Right_design{
+			margin-left: 1000px;
+			margin-top: 90px;
+			transform: 
+		}

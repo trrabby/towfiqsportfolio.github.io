@@ -1,0 +1,35 @@
+body{
+	background: skyblue;
+}
+.text{
+	height: 300px;
+	width: 600px;
+	text-align: center;
+	background: pink;
+	margin: 0px auto;
+	color: black;
+	border: 1px solid black;
+	border-radius: 55px;
+	line-height: 10px;
+	margin-top: 150px;
+}
+.welcome{
+	font-size: 70px;	
+}
+.to{
+	font-size: 60px;
+}
+.message{
+	font-size: 70px;
+}
+footer{
+	height: 20px;
+	width: 200px;
+	text-align: center;
+	background: gray;
+	margin: 0px auto;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 2px;
+}

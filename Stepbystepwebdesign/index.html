@@ -1,0 +1,421 @@
+<html>
+	<head>
+	<title>Parallax Design Step1</title>
+	<style>
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		#container{}
+		.header{
+			background:linear-gradient(rgba(0, 0, 0, .2),rgba(255, 0, 0, .2)), url("img/3.jpg") no-repeat;
+			height:100%;
+			width:100%;
+			
+		}
+		.header_row1{
+			height:100px;
+			width:100%;
+			
+		}
+		.logo{
+			margin-left:50px;
+			
+		}
+		.logo img{
+			height:100px;
+			width:20%;
+			
+		}
+		.nav{
+			margin-left:300px;
+			margin-top:-70px;
+			
+		}
+		.nav ul{
+			list-style:none;
+			
+		}
+		.nav ul li{
+			float:left;
+			font-size:22px;
+			padding:5px;
+			color:white;
+		}
+		.nav ul li:hover{
+		cursor:pointer;
+		background:orange;
+		border-radius:10px;
+		}
+		.donate{
+			
+			color:white;
+			border:2px solid white;
+			height:30px;
+			width:150px;
+			border-radius:20px;
+			margin-left:850px;
+			text-align:center;
+			font-size:22px;
+			padding:5px;
+			
+		}
+		.header_row2{
+			margin-left:50px;
+			margin-top:100px;
+			color:white;
+		}
+		.water{
+			
+			font-size:30px;
+		}
+		.to{
+			font-size:24px;
+			
+		}
+		.world{
+			font-size:20px;
+			margin-left:25px;
+			margin-top:-24px;
+		}
+		.join{
+			border:2px solid white;
+			border-radius:20px;
+			height:20px;
+			width:120px;
+			font-size:17px;
+			text-align:center;
+			padding:5px;
+		}
+		.header_row3{
+			color:white;
+			margin-top:120px;
+		}
+		.one{
+			margin-left:50px;
+		}
+		.one h2{
+			font-size:30px;
+		}
+		.one p{
+			margin-top:-35px;
+			margin-left:70px;
+		}
+		.two{
+			
+		}
+		.three{}
+		.section2{
+		height: 300px;
+		width: 100%;
+		background: url("img/body_image1.jpg");
+		margin-top: -40px;
+		}
+		.section2_tltle{
+		font-size: 40px;
+		text-align: center;
+	
+		}
+		.section2_hr{
+			width:150px;
+			margin-left:403px;
+			background-color:red;
+			height: 3px;
+		}
+		.section2_desc{
+		margin-left:70px;
+		font-size:15px;
+		
+		}
+		.section2_angle{
+			border:1px solid orange;
+			height:30px;
+			width:30px;
+			margin-left:500px;
+			background:orange;
+			transform:rotate(45deg);
+			margin-top:94px;
+			position:absolute;
+			z-index:-1;
+		}
+		.section2_angle2{
+			border:1px solid white;
+			height:20px;
+			width:20px;
+			margin-left:505px;
+			transform:rotate(45deg);
+			margin-top:98px;
+			position:absolute;
+			z-index:-1;
+			
+			}
+	    .section3{
+			 height:250px;
+			 width:60%;
+			margin-left:280px;
+			}
+	    .sr1_sec3{
+			height:160px;
+			width:160px;
+			border-radius:100px;
+			border:1px solid black;
+			margin-left:50px;
+			margin-top:80px;
+			position:absolute;
+			float:left;
+			}
+			.sr1_sec3 img{
+			 height:150px;
+			width:130px;
+			margin-left:15px;
+			border-radius:150px;
+			}
+	    .sr2_sec3{
+		    height:160px;
+			width:160px;
+			border-radius:100px;
+			background-color:orange;
+			margin-left:160px;
+			margin-top:80px;
+			position:absolute;
+			float:left;
+		}
+		.sr2_sec3 img{
+			 height:150px;
+			width:130px;
+			margin-left:15px;
+			border-radius:150px;
+			}
+		.sr3_sec3{
+		    height:160px;
+			width:160px;
+			border-radius:100px;
+			border:1px solid black;
+			margin-left:280px;
+			margin-top:80px;
+			position:absolute;
+			float:left;
+			z-index:-1;
+		}
+		.sr3_sec3 img{
+			 height:150px;
+			width:130px;
+			margin-left:15px;
+			border-radius:150px;
+			}
+			
+		.section4{
+			height:180px;
+			width:100%;
+		}
+		.note{
+			margin-left: 100px;
+			text-align: center;
+			margin-top: 20px;
+			}
+		.note_donate{
+			width: 150px;
+			height: 25px;
+			border: 1px solid black;
+			float: left;
+			margin-left: 350px;
+			text-align: center;
+			margin-top: 50px;
+			background: white;
+			border-radius:15px;
+			padding-top: 5px;
+			cursor: pointer;
+			}
+			
+		.note_donate:hover{
+			background: orange;
+			color: white ;
+		}	
+		.note_reg{	
+			width: 150px;
+			height: 25px;
+			border: 1px solid black;
+			float: left;
+			margin-left: 10px;
+			text-align: center;
+			margin-top: 50px;
+			border-radius:15px;
+			padding-top: 5px;
+			cursor:pointer;
+			}
+			
+		.note_reg:hover{background: orange;
+			color: white ;
+		}	
+		.section5{
+			background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("img/6.jpg");
+			height: 500px;
+			width: 100%;
+			position: absolute;
+			background-repeat:no-repeat;
+			
+		}
+		.Sub_img{
+			width: 400px;
+			height: 250px;
+			background: url(img/5.jpg);
+			margin-left: 580px;
+			margin-top:80px;
+			background-repeat: no-repeat;
+		}
+		
+		.featured{
+			height: 300px;
+			width: 600px;
+			
+			margin-left: 200px;
+			margin-top: -250px;
+			text-transform:uppercase;
+			color: white;
+		}
+		
+		.hr1{
+		width: 360px;
+		background: black;
+		height:7px;
+		border-radius:20px;
+		border: none;
+		}
+		.hr2{
+		width:150px;
+		height:5px;
+		background: orange;
+		margin-top: -6px;
+		border-radius:20px;
+		border: none;
+		margin-left:1px;
+		}
+		.dollar{
+			margin-top:-50px;
+		}
+		.dollar_{
+			margin-top:-32px;
+			margin-left: 120px;
+		}
+		.button_donate{
+		background:orange;
+		color: white;
+		border-radius:20px;
+		margin-top:-35px;
+		margin-left:275px;
+		width: 85px;
+		height: 30px;
+		border: none;
+		cursor: pointer;
+		
+		
+		}
+		
+		.right_arrow{
+		float:left;
+		margin-left:750px;
+		margin-top:-150px;
+		cursor:pointer;
+		
+		}
+		
+		.left_arrow{
+		transform: rotate(180deg);
+		float: left;
+		margin-left:-180px;
+		margin-top:-150px;
+		cursor:pointer;
+		}
+	</style>
+	
+	</head>
+	<body>
+	<div id="container">
+		<div class="header">
+			<div class="header_row1">
+				<div class="logo"><img src="img/logo.png"></div>
+				<div class="nav">
+					<ul>
+						<li><pre>Home |</pre></li>
+						<li><pre>Pages |</pre></li>
+						<li><pre>Campaign |</pre></li>
+						<li><pre>Event |</pre></li>
+						<li><pre>Contact Us</pre></li>
+					</ul>
+				
+				</div>
+				<div class="donate">DONATE  NOW</div>
+			</div>
+			<div class="header_row2">
+				<div class="water">TAKE WATER</div>
+				
+				<div class="to">To</div>
+				<div class="world">
+				<h1> AROUND THE WORLD</h1></div>
+				<div class="join">Join With Us</div>
+			</div>
+			<div class="header_row3">
+				<div class="one">
+				<h2><pre>01 |</pre></h2>
+				<p>This is </br>dummy text</p>
+				</div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</div>
+		</div>
+		<div class="section2">
+		<div class="section2_tltle"><b>HOW CAN YOU HELP?</b></div>
+		<div class="section2_hr"><hr></div>
+		<div class="section2_desc">
+		<pre><h3>
+		Dummy textIts function as a filler or as a tool for comparing
+		the visual impression Dummy text is text that is used in the 
+		publishing industry or by web designers to occupy the space 
+		which will later be filled with 'real' content.This is required
+		when, for example, the finaltext is not yet available. Dummy text
+		is als known as 'fill text'. It is said that song comp</h3></pre></div>
+		<div class="section2_angle"></div>
+		<div class="section2_angle2"></div>
+		</div>
+		<div class="section3">
+			<div class="sr1_sec3"><img src="img/volunteer2.png" height="160px" width="160px"></div>
+			<div class="sr2_sec3"><img src="img/make-a-gift.png" height="160px" width="160px"></div>
+			<div class="sr3_sec3"><img src="img/volunteer2.png" height="160px" width="160px"></div>
+			
+		</div>
+		<div class="section4">
+			<div>
+				<p class="note"> Phascllus in egestas libero, et congue lacus. Cros vel lacus nisi.
+				Duis nulla metus,<br> tincidunt at tartor. </p>
+				<p class="note_donate"> Donate Us</p>
+				<p class="note_reg"> Register</p>
+			</div>
+		</div>
+		<div class="section5">
+			<div class="Sub_img"></div>
+			<div class="featured">
+				<p>Featured Campain<br><br>
+				<h1> Give Education to africa </h1><br><br>
+				<span style=" font-size: 10px;">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem <br>
+				Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br> Lorem Ipsum Lorem 
+				Ipsum Lorem Ipsum</span>
+				<br><br>
+				<pre><span style="color:orange;">Donated</span>                                 40%</pre>
+				<br><hr class="hr1">
+				<hr class="hr2"><br><br>
+				<p> Raised<br><h2>$16,300</h2></p>
+				<div class="dollar"><h1><span style="margin-left:90px; ">|</span></h1></div>
+				<div class="dollar_"><p></p>Goal<br><h2>$60,000</h2></p></div>
+				<div ><button class="button_donate">DONATE</button></div>
+				
+				<div class="left_arrow"><img src="img/right.png"></div>
+				<div class="right_arrow"><img src="img/right.png"></div>
+				
+			
+			</div>
+		
+		</div>
+		
+	</div>
+	</body>
+</html>

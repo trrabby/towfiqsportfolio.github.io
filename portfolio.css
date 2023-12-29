@@ -1,0 +1,395 @@
+
+*{
+    margin: 0px; padding: 0px;
+    opacity: 1;
+}
+.containar{
+     font-family: cursive;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+            
+}
+.header{ 
+    height: 70px; width: 100%;
+    background: linear-gradient( 30deg, #02C664,white) ; opacity:.5px;
+    position: fixed;
+    z-index: 1;
+
+}
+.logo{
+    height: 85px; width: ;
+    margin-top: -8px;
+    margin-left: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.navigation{
+    height: 100%;
+    width: 200px;
+    background: linear-gradient( 60deg, #02C664,#B2BABB) ;
+    margin-top: 70px;
+    position: fixed;
+
+
+}
+.navigation ul{
+}
+.navigation ul li{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    text-decoration: none;
+    text-decoration-style: none; 
+    border: none;
+
+}
+.navigation ul li:hover{
+    background: #162C21;
+    opacity: 1px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    color: white;
+}
+/*social tab start*/
+/*activating portfolio*/
+.activate{
+    background: linear-gradient( 60deg, #02C664,black);
+    opacity: 1px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    color: white;
+    border: 2px solid black;
+
+}
+.social{
+    margin-top: 290px;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.fb:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.twit{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.twit:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.skype{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+
+.skype:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.in{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.in:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+
+/*social tab close*/
+
+.main{
+     /*background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));*/
+    
+     width: 85%;
+     margin-left: 202px;
+     height: 1500px;
+
+}
+
+.one{
+     background: url("img/mil5.jpg");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 610px;
+
+    
+}
+
+    .donation{
+        width: auto;
+        height: auto;
+        margin-left: 130px;
+        float: left;
+        }
+
+        .sec1{
+            margin-top: 100px;
+            cursor: pointer;
+            filter: blur(2px);
+            height: auto;
+            backface-visibility: hidden;
+            border:2px solid white;  
+            }
+
+        
+        .see{
+            height: 30px;
+            width: 100px;
+            border: 2px solid black;
+            color: white;
+            font-size: 18px;
+            font-style: bold;
+            padding: 2px;
+            text-align: center;	
+            margin-top: -80px;
+            margin-left: 280px;
+            top: 50%;
+            position: absolute;
+            float: left;
+            }
+
+    .donation:hover .sec1{
+
+        filter: blur(0px);
+        transition: .4s ease;
+        border-radius: 10px ;
+        }	
+
+    .donation:hover .see{
+        background: linear-gradient( 20deg, #02C664,#B2BABB) ;
+        
+        border: 2px solid white;
+        font-size: 18px;
+        padding: 2px;
+        text-align: center;	
+        height: 30px;
+        width: 100px;
+        font-style: bold;
+        border-radius: 5px;
+        color: black;
+        
+    }
+/* donation closed */
+
+/* Paralax start */
+.parallax{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+}
+        .sec11{
+            margin-top: 100px;
+            cursor: pointer;
+            
+            height: auto;
+            backface-visibility: hidden;
+            border:2px solid white;  
+            filter: blur(2px);
+            }
+
+        .see1{
+            height: 30px;
+            width: 100px;
+            border: 2px solid black;
+            color: white;
+            opacity: .5px;
+            font-size: 18px;
+            font-style: bold;
+            padding: 2px;
+            text-align: center;	
+            margin-top: -80px;
+            margin-left: 280px;
+            top: 50%;
+            position: absolute;
+            
+            }
+
+        .parallax:hover .sec11{
+
+            filter: blur(0px);
+            transition: .4s ease;
+            border-radius: 10px ;
+            }	
+            
+        .parallax:hover .see1{
+            background: linear-gradient( 20deg, #02C664,#B2BABB) ;
+            border: 2px solid white;
+            font-size: 18px;
+            padding: 2px;
+            text-align: center;	
+            height: 30px;
+            width: 100px;
+            font-style: bold;
+            border-radius: 5px;
+            color: black;
+            
+        }	
+/* paralax closed */
+
+/*du start*/
+.linkingbetweenpagesDU{
+
+    margin-left: 130px;
+    width: auto;
+    height: auto;
+    float: left;
+    }
+
+        .sec2{
+            margin-top: 50px;
+            cursor: pointer;
+            filter: blur(2px);
+            height: auto;
+            backface-visibility: hidden;
+            border:2px solid white;  
+            }
+
+            
+        .see2{
+            height: 30px;
+            width: 100px;
+            border: 2px solid black;
+            color: black;
+            font-size: 18px;
+            font-style: bold;
+            padding: 2px;
+            text-align: center;	
+            margin-top: 170px;
+            margin-left: 280px;
+            top: 50%;
+            position: absolute;
+            }
+
+        .linkingbetweenpagesDU:hover .sec2{
+
+            filter: blur(0px);
+            transition: .4s ease;
+            border-radius: 10px ;
+            }	
+
+        .linkingbetweenpagesDU:hover .see2{
+            background: linear-gradient( 20deg, #02C664,#B2BABB) ;
+            border: 2px solid white;
+            font-size: 18px;
+            padding: 2px;
+            text-align: center;	
+            height: 30px;
+            width: 100px;
+            font-style: bold;
+            border-radius: 5px;
+            color: black;
+            
+        }	
+/* DU Closed */
+
+/*transcargo started*/
+.paralaxdesigntranscargo{
+     width: auto;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+}
+
+   .sec3{
+    margin-top: 50px;
+    cursor: pointer;
+    /* opacity: .5; */
+    height: auto;
+    backface-visibility: hidden;
+    border:2px solid white;  
+    filter: blur(2px);
+       }
+
+    .see3{
+        height: 30px;
+        width: 100px;
+        border: 2px solid black;
+        font-size: 18px;
+        font-style: bold;
+        padding: 2px;
+        text-align: center;	
+        margin-top: 170px;
+        margin-left: 280px;
+        top: 50%;
+        position: absolute;
+        }
+
+    .paralaxdesigntranscargo:hover .sec3{
+
+        /* opacity: 1; */
+        
+        transition: .4s ease;
+        border-radius: 10px ;
+        filter: blur(0px);
+        }	
+
+    .paralaxdesigntranscargo:hover .see3{
+        background: linear-gradient( 20deg, #02C664,#B2BABB) ;
+        border: 2px solid white;
+        font-size: 18px;
+        padding: 2px;
+        text-align: center;	
+        height: 30px;
+        width: 100px;
+        font-style: bold;
+        border-radius: 5px;
+        color: black;
+        
+         }	
+
+/* transcargo closed */
+
+.two{
+     background: url("img/mil4.jpg");
+     background-position:right;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 590px;
+     margin-top: 10px;
+}
+
+.footer{
+    height: 50px; width: 100%;
+    background: linear-gradient( -45deg, #02C664, black) ;
+    margin-top: 2px;
+}
+.footerp{
+    background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
+    width: 280px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    height: 25px;
+    margin-left: 1000px;
+    
+    border-radius: 10px;
+
+
+}	
+

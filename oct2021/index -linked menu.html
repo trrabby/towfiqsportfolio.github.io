@@ -1,0 +1,688 @@
+	<html>
+	<head>
+		<title>Learn HTML5 and CSS3 Project1 Part1</title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+				font-family:  cursive;
+			}
+			a{
+				text-decoration: none;
+				
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			.header{
+		
+				width: 100%;
+				background: url("img/2.jpg");
+				background-attachment: fixed;
+			}
+			.row1{
+				height: 100px;
+				width: 100%;
+				cursor: pointer;
+			}
+			.logo{
+				width: 30%;
+				float: left;
+				text-transform: uppercase;	
+			}
+			.logo p{
+				font-size: 35px;
+				margin-left: 120px;
+				color: white;
+				padding: 15px;
+				padding-top: 30px;
+			}
+			.navigation{
+				width: 60%;
+				float: right;
+
+
+			}
+			.navigation ul{
+				list-style: none;
+				position: fixed;
+				transition: 2s;
+			}
+			.navigation ul li{
+				float: left;
+				margin-left: 5px;
+				padding: 15px;
+				padding-top: 30px;
+				font-size: 16px;
+				color: white;
+				text-transform: uppercase;
+				background: linear-gradient(rgba(0, 0, 100,.5),rgba(0,0,0,.5));
+				border-top-right-radius: 50px;
+				border-bottom-left-radius: 50px;
+				margin-top: 10px;
+				transition: 5s;
+				text-decoration: none;
+
+			}
+			.navigation ul li:hover{
+				border-bottom: 2px solid white;
+				background: linear-gradient( 45deg, black, white, black)
+				; opacity: .5;
+				transition: 2.5s; color: black;
+				transform: rotate(360deg);
+			}
+			.row2{}
+			.square{
+				height: 50px;
+				width: 50px;
+				background: #154360;
+				transform: rotate(45deg);
+				border-top-right-radius: 100px;
+				border-top-left-radius: 100px;
+				border-bottom-left-radius: 100px;
+				margin-left: 680px;
+				cursor: pointer;
+				color: white;
+				margin-top: 5px;
+
+			}
+			.square:hover{
+				background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5))
+
+
+			}
+			.caption{
+				border: 4px solid white;
+				width: 380px;
+				color: white;
+				padding: 25px;
+				margin-left: 500px;
+				margin-top: 150px;
+				cursor: pointer;
+				text-align: center;
+				
+			}
+			.caption:hover{
+				background-color: #D5D8DC; 
+				opacity: .5; color: black;
+			
+			}
+			.caption h2{
+				text-transform: uppercase;
+			}
+			.row3{}
+			.botton{
+				width: 200px;
+				margin-left: 590px;
+				padding: 10px;
+				margin-top: 12px;
+				color: white;
+				background: orange;
+				font-size: 18px;
+				text-transform: uppercase;
+				cursor: pointer;
+			}
+			.botton:hover{
+				background-color: #D5D8DC; 
+				opacity: .5;
+				color: black; 
+			}
+			.row4{
+				background:linear-gradient(45deg, black, blue); opacity:.5;
+				margin-top: 195px;
+				cursor: pointer;
+
+			}
+			.white_main{
+				height: 200px;
+				background-color: white;
+
+			}
+			.rowm1{
+				
+				width: 600px;
+				text-align: center;
+				padding: 40px;
+				margin: 0px auto;
+				margin-top: 30px;
+				color: #808B96;
+			}
+			.rowm2{
+				margin-left: -50px;
+				margin-top: 30px;
+				cursor: pointer;
+			}
+			.circle1{
+				height: 150px;
+				width:150px;
+				border-radius: 150px;
+				float: left;
+				background-color: #1F618D;
+				margin-left: 170px;
+			}
+			.circle2{
+				height: 150px;
+				width:150px;
+				border-radius: 150px;
+				float: left;
+				background-color: orange;
+				margin-left: 170px;
+				}
+			.rowm2>.circle2>p>img{
+				margin-top: 50px;
+			}
+			.circle3{
+				height: 150px;
+				width:150px;
+				border-radius: 150px;
+				float: left;
+				background-color: #1F618D;
+				margin-left: 170px;
+			}
+			.circle4{
+				height: 150px;
+				width:150px;
+				border-radius: 150px;
+				float: left;
+				background-color: #1F618D;
+				margin-left: 170px;
+			}
+			.rowm2>p>img{
+				margin-top: 20px;
+				margin-left: 30px;
+			}
+			.rowm3{
+				margin-top: 210px;
+				margin-left: px;
+				text-align: center;
+			}
+			.art1{
+				width: 300px; float: left;
+				margin-left: 30px;
+				}
+			.sub_img{
+				width: 100%;
+				height: 500px;
+				margin-top: 450px;
+				background: url(img/3.jpg); background-repeat: no-repeat;
+				background-attachment: fixed;
+				
+
+			}
+			.art2{
+				
+				width: 470px;
+				padding: 170px;
+				margin-left: 270px;
+				color: white;
+				text-align: center;
+			}
+			
+			.art2_1{
+				border:2px solid white;
+				background:  ;
+				width: 150px;
+				text-align: center;
+				margin-left: 600px;
+				margin-top:-140px; 
+				cursor: pointer;
+				color: white;
+				padding: 6px;
+			}
+			.art2_1:hover{
+				background-color: #D5D8DC; 
+				opacity: .5;
+				color: red;
+
+			}
+			.Portfolio{
+				height: 700px;
+				width: 100%;
+				background: white;
+			}
+			.rowm4{
+				text-align: center;
+				margin-top: 50px;
+			}
+			.main_menu{
+
+			}
+			.main_menu ul{
+				list-style: none;
+				margin-left: 350px;
+
+			}
+			.main_menu ul li{
+				float: left;
+				padding: 10px;
+				border: 1px solid black;
+				margin-left: 5px;
+				cursor: pointer;
+
+			}
+			.main_menu ul li:hover{
+				background-color: orange; 
+				opacity: .5;
+				color: black; 
+				transition: 1s;
+				color: blue;
+				border: 5px green;
+			}
+			.main_menu ul li>.orange_li{
+					border: 2px solid orange;
+			}
+			
+			.port_folio{
+				
+			}
+			.pic1s{
+				height: 450px;
+				width: 800px;
+				float: left;
+				border:2px solid white;
+				
+			}
+			.pic2d{
+				height: 450px;
+				width: 500px;
+				float: left;
+				border:2px solid white;
+				margin-right:
+			}
+			.pic3d{
+				height: 450px;
+				width: 500px;
+				float: left;
+				border:2px solid white;
+			}
+			.pic4th{
+				height: 450px;
+				width: 800px;
+				float: left;
+				border:2px solid white;
+			}
+			.folio_pic{
+				margin-left: ;
+				margin-top: 50px;
+				margin-left:  1.5%;
+			}
+			.button_{
+				font-size: 20;
+				margin-left: 90.7%;
+				background: linear-gradient( black, #A6ACAF, black);
+				width: 100px;
+				cursor: pointer;
+				margin-top: 25px;
+			}
+			.button_:hover{
+				background: linear-gradient( 45deg, white, orange,white); transition: 1s;
+			}
+			.last_img{
+				background:linear-gradient( white, orange,white), url(2.jpg); background-repeat: no-repeat;
+				height: 400px; width: 100%;
+				margin-top: 450px;
+				
+
+			}
+			.Last_white{
+				width: 100%;
+				height: 300px;
+				background: white;
+			}
+			.photo_1{
+				width: 22%; height: 280px; 
+				background: linear-gradient(rgba(0, 0, 200, 1.0),rgba(200, 0, 0, 1.0));
+				float: left;
+				margin-left: 30px;
+				border-top-right-radius: 40px;
+				border-top-left-radius: 40px;
+				}
+			.img_ceo{
+				margin-left: 100px;
+				margin-top: 10px;
+				border: 2px solid black;
+				width: 100px;
+				height: 100px;
+				border-radius: 60px;
+			}
+			.style2{
+				width: 99%;
+				background: linear-gradient(rgba(0, 0, 150,.7),rgba(0, 0, 0, 1.0));
+				height: 10px;
+				margin-left: 1px;
+				margin-top: 155px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius:10px;
+			}
+			.style2:hover{
+				background: white;
+			}
+			.intoducement{
+				text-align: center;
+				margin-top: -150px;
+				cursor: pointer;
+
+			}
+			.intoducement:hover{
+				color: white;
+			}
+
+			.photo_2{
+				width: 22%; height: 280px; 
+				background: linear-gradient(rgba(0, 0, 200, 1.0),rgba(200, 0, 0, 1.0));
+				float: left;
+				margin-left: 30px;
+				border-top-right-radius: 40px;
+				border-top-left-radius: 40px;
+			}
+			.photo_3{
+				width: 22%; height: 280px; 
+				background: linear-gradient(rgba(0, 0, 200, 1.0),rgba(200, 0, 0, 1.0));
+				float: left;
+				margin-left: 30px;
+				border-top-right-radius: 40px;
+				border-top-left-radius: 40px;
+			}
+			.photo_4{
+				width: 22%; height: 280px; 
+				background: linear-gradient(rgba(0, 0, 200, 1.0),rgba(200, 0, 0, 1.0));
+				float: left;
+				margin-left: 30px;
+				border-top-right-radius: 40px;
+				border-top-left-radius: 40px;
+			}
+			.addressbar{
+				width: 100%;
+				height: 200px;
+				background: linear-gradient(rgba(100, 0, 0, 1.0),rgba(0, 0, 0, .5));
+			}
+			.table{
+				margin: 0px auto;
+				background: linear-gradient(rgba(100, 0, 0, 1.0),rgba(0, 0, 0, .5));
+				width: 1200px;
+			}
+			.form{
+				padding: 8px;
+				font-size: 20px;
+				margin: 0px auto;
+				height: 200px;
+				width: 1000px;
+
+			}
+			.form input{
+				height: 50px;
+				width: 400px;
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 18px;
+				background: none;
+				border-bottom: 2px dotted white;
+				outline: none;
+				color: white;
+				padding: 5px;
+
+			}
+			.form input:hover{
+				background: #641E16; 
+				opacity: .5;
+				color: white;
+				transition: 1s;
+			}
+			.form lable{
+				color: white;
+			}
+			.form textarea{
+				height: 80px;
+				width: 750px;
+				margin-top: 10px;
+				margin-left: 100px;
+				font-size: 19px;
+				background: none;
+				border-bottom: 2px solid white;
+				outline: none;
+				color: white;
+				text-align: center;
+				cursor: pointer;
+			}
+			.form textarea:hover{ 
+				background: #641E16; 
+				opacity: .5;
+				color: white;
+				transition: 1s;
+			 }
+			.message{
+				margin-left: 430px;
+
+			}
+			.submit{
+				height: 50px;
+				width: 150px;
+				margin-left: 880px;
+				border-bottom: 3px solid black;
+				margin-top: -70px;
+				background: none;
+				cursor: pointer;
+				border: none;
+				color: white;
+				font-size: 20px;
+			}
+			.submit:hover{
+				background: linear-gradient(rgba(100, 0, 0, 1.0),rgba(0, 0, 0, .5));
+				border: 1px dashed black;
+				opacity: .5;
+			}
+
+			.copyright{
+				width: 100%;
+				height: 50px;
+				background: black;
+				color: white;
+				text-align: center;
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container"> 
+			<header class="header" id="Hom">
+				<div class="row1">
+					<div class="logo"><p>Your<span style="color:orange; font-weight: bold">logo</span></p></div>
+					<div class="navigation">
+						<ul>
+							<li><a href="#Hom">Home</li>
+							<li><a href="#Our.">Services</li>
+							<li>Action</li>
+							<li><a href="#Por">Portfolio</li>
+							<li>Career</li>
+							<li><a href="#Con">Contact</li>
+							<div style="clear: both"></div>
+						</ul>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="row2">
+					<div class="caption">
+						<h2>Main Caption goes here</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing </p>
+						
+					</div>
+					<div class="square">
+						<marquee style="transform: rotate(180deg)";>********* &nbsp;&nbsp;TowfiQ &nbsp;&nbsp;*********</marquee>
+						<marquee style="transform: rotate(0deg)";>*********&nbsp;&nbsp;TowfiQ&nbsp;&nbsp;*********</marquee>
+						 </div>
+						 
+						 
+				</div>
+				<div class="row3">
+					<div class="botton">Learn More About</div>
+				</div>
+				<div class="row4">
+					<div class="logo"><p>Your<span style="color:orange; font-weight: bold">logo</span></p></div>
+					<div class="navigation">
+						
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</header>
+			
+
+			<main>
+				<div class="white_main" id="Our.">
+					<div class="rowm1">
+						<span style="color: black; font-size: 40px;"> Our Services</span><br>
+						<p>It is a long established face that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					</div>
+					<div class="rowm2">
+						<p class="circle1"><img src="logo/developer.png"></p>
+						<p class="circle2"><img src="logo/web_design.png"></p>
+						<p class="circle3"><img src="logo/logo.png"></p>
+						<p class="circle4"><img src="logo/Online.png"></p>
+
+					</div>
+
+
+					<div class="rowm3">
+						<article class="art1"><h1>Web development</h1><p>
+							we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.<br><br><span style="cursor: pointer;">Read More</span>
+						</p></article>
+
+
+						<article class="art1"><h1>Web design</h1><p>
+							we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.<br><br> <span style="color: orange; cursor: pointer;"> Read More</span>
+
+						</p></article>
+						<article class="art1"><h1>Logo design</h1><p>
+							we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.<br><br><span style="cursor: pointer;">Read More</span>
+
+						</p></article>
+						<article class="art1"><h1>Online marketing</h1><p>
+							we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.<br><br><span style="cursor: pointer;">Read More</span>
+						</p></article>
+					</div>
+				</div>
+				
+
+				<div class="sub_img">
+					<article class="art2">
+					<h1>Angular Exparts In Action</h1>
+					<p>We continue to learn and expand all the emerging technology</p>
+					</article>
+					<p class="art2_1"> Learn More</p>
+				</div>
+					
+
+				<div class="Portfolio" id="Por">
+					<div class="rowm4">
+					<h1>Our Portfolio </h1>
+					<p> The cool stuff that come from collaboration, hard work and passion</p>
+					</div>
+					<div class="main_menu">
+						<ul>
+							<li>Overview</li>
+							<li class="orange_li">Web Design</li>
+							<li>Development</li>
+							<li>Logo design</li>
+							<li>Print Design</li>
+							<li>Marketing</li>
+						</ul>
+					</div>
+					<br><br>
+					<div class="folio_pic">
+						<div class="pic1s"> <img src="img/4.jpg" height="450px" width="800px"></div>
+
+						<div class="pic2d"> <img src="0.jpg" height="450px" width="500px"></div>
+						
+						
+
+						<div class="pic3d"> <img src="img/5.jpg" height="450px" width="500px"></div>
+
+						<div class="pic4th">
+						<img src="img/6.jpg" height="450px" width="800px">
+						</div>
+
+						<div style="clear: both"></div>
+						
+							<button class="button_">
+								More
+							</button>
+						 
+					</div>
+				</div>
+					
+				<div class="last_img">
+						
+				</div>
+			</main>
+
+			<footer id="Con">
+				
+				<div class="Last_white">
+					<div class="photo_1">
+							<div >
+								<img src="img/pic.jpg" class="img_ceo">
+							</div>
+							<div class="style2"></div>
+							<article class="intoducement">
+								<h3>MD. TOWFIQUR RAHMAN</h3>
+								<P>Website Designer<br>Accounting & Information Systems,<br>Jatiya Kabi Kazi Nazrul Islam University</P>
+							</article>
+					</div>
+
+
+					<div class="photo_2">
+						
+							<div >
+								<img src="img/pic.jpg" class="img_ceo">
+							</div>
+							<div class="style2"></div>
+							<article class="intoducement">
+								<h3>MD. TOWFIQUR RAHMAN</h3>
+								<P>Website Designer<br>Accounting & Information Systems,<br>Jatiya Kabi Kazi Nazrul Islam University</P>
+							</article>
+					</div>
+					<div class="photo_3">
+						
+						 	<div >
+								<img src="img/pic.jpg" class="img_ceo">
+							</div>
+							<div class="style2"></div>
+							<article class="intoducement">
+								<h3>MD. TOWFIQUR RAHMAN</h3>
+								<P>Website Designer<br>Accounting & Information Systems,<br>Jatiya Kabi Kazi Nazrul Islam University</P>
+							</article>
+					</div>
+					<div class="photo_4">
+						
+							<div >
+								<img src="img/pic.jpg" class="img_ceo">
+							</div>
+							<div class="style2"></div>
+							<article class="intoducement">
+								<h3>MD. TOWFIQUR RAHMAN</h3>
+								<P>Website Designer<br>Accounting & Information Systems,<br>Jatiya Kabi Kazi Nazrul Islam University</P>
+							</article>
+					</div>
+					<div style="clear: both;"></div>	
+				</div>
+				
+				<div class="addressbar">
+					<div class="table">
+					<form class="form">
+							
+							<lable>Name</lable><input type="text" placeholder="Write you full name">
+							<input type="email" placeholder="Write you Email"><lable>Email</lable><br>
+							<lable class="message">Message</lable><br><textarea placeholder="Your message"></textarea><br>
+							<button class="submit">KnocK</button>
+						
+					</form>
+					</div>
+
+				</div>
+				<div class="copyright">
+					&copy;Towfiq's design 2017
+					<br> fb.com/profile.trrabby
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
