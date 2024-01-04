@@ -1,0 +1,245 @@
+*{
+    margin: 0px; padding: 0px;
+}
+.containar{
+     font-family: cursive;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+            
+}
+.header{ 
+    height: 70px; width: 100%;
+    background: linear-gradient( 30deg, #02C664,white) ; opacity:.5px;
+    position: fixed;
+
+}
+.logo{
+    height: 85px;
+    margin-top: -8px;
+    margin-left: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.navigation{
+    height: 100%;
+    width: 200px;
+    background: linear-gradient( 60deg, #02C664,#B2BABB) ;
+    margin-top: 70px;
+    position: fixed;
+
+
+}
+
+.navigation ul li{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    text-decoration: none;
+    text-decoration-style: none; 
+    border: none;	
+
+}
+.navigation ul li:hover{
+    background: #162C21;
+    opacity: 1px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    color: white;
+}
+/*activating about*/
+.activate{
+    background: linear-gradient( 60deg, #02C664,black);
+    opacity: 1px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    color: white;
+    border: 2px solid black;
+
+}
+.social{
+    margin-top: 290px;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.fb:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.twit{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.twit:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.skype{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+
+.skype:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.in{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 7px;
+}
+.in:hover{
+    background: black;
+    transition: 1s;
+    border-radius: 8px;
+}
+.main{
+    background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
+    width: 85%;
+    margin-left: 202px;
+    height: auto;
+}
+
+.Bird{
+    margin-top: 80px;
+   
+
+}
+
+.Overview{
+    font-family: cursive;
+    font-size: 28px;
+    background-color: aqua;
+    color: #162C21;
+    text-decoration-style: dotted;
+    padding: 2px;
+    width: 150px;
+    border: 4px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    margin-left: 600px;
+    z-index: 1;
+    margin-top: -25px;
+    text-align: center;
+    
+}
+.Overview:hover{
+    color: hsl(355, 86%, 44%);
+    background-color: hwb(0 93% 7%);
+    border: 4px solid hsl(0, 0%, 9%);
+    cursor: pointer;
+    border-radius: 0px;
+
+
+}
+.comment h1{
+    padding-top: 20px;
+}
+
+.comment h1:hover{
+    color: aqua;
+}
+
+.comment{
+    background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
+    color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 350px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 260px;
+    width: 600px;
+    display: inline-flexbox;
+    position: relative;
+    border: 4px solid white;
+}
+
+.comment:hover{
+    padding: 15px;
+    transition: 1s;
+    text-align: right;
+    cursor: pointer;
+}
+
+.secondslot{
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+    
+}
+.content{
+    color: black;
+    margin-top: 100px;
+    border: 4px solid white;
+    width: 45%;
+    background:linear-gradient(rgba(18, 86, 231, 0.5), rgba(102, 231, 214, 0.808));
+    border-radius: 5px;
+    padding: 10px;
+}
+.content a:hover{
+    color: rgb(15, 14, 14);
+    text-decoration: underline;
+}
+.education{
+    text-align: center;
+    text-shadow: white 10px 5px 10px;
+}
+
+.education:hover{
+    color: #d8ffff;
+    text-decoration: underline;
+}
+
+.content h1{
+    color: white;
+    text-shadow: #162C21 5px 4px 5px;
+    
+}
+
+/* .star{
+    margin-left:500px;
+} */
+
+
+
+.footer{
+    height: 50px; width: 1000px;
+    background:  linear-gradient( 30deg, #02C664,white) ; 
+    margin-top: 2px;
+    z-index: -1;
+    
+}
+.footerp{
+    background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
+    width: 280px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    height: 25px;
+    margin-left: 850px;
+    border-radius: 10px;
+
+
+}	
