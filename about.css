@@ -115,13 +115,35 @@ a{
     background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
     width: 85%;
     margin-left: 202px;
-    height: auto;
+    height: 10000px;
 }
 
 .Bird{
     margin-top: 80px;
    
 
+}
+
+.firstslot{
+   
+    display: inline;
+   
+}
+
+.firstslot:hover .Overview {
+    margin-left: 180px;
+    transition: 1s;
+    margin-top: 10px;
+    overflow-x: auto;
+    /* width: 50%; */
+    padding-left: 10px;
+    color: hsl(355, 86%, 44%);
+    background-color: hwb(0 93% 7%);
+    border: 4px solid hsl(0, 0%, 9%);
+    cursor: pointer;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .Overview{
@@ -135,22 +157,14 @@ a{
     border: 4px solid white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    position: absolute;
+    
     margin-left: 600px;
-    z-index: 1;
-    margin-top: -25px;
+    
     text-align: center;
     
+    
 }
-.Overview:hover{
-    color: hsl(355, 86%, 44%);
-    background-color: hwb(0 93% 7%);
-    border: 4px solid hsl(0, 0%, 9%);
-    cursor: pointer;
-    border-radius: 0px;
 
-
-}
 .comment h1{
     padding-top: 20px;
 }
@@ -163,28 +177,29 @@ a{
     background:linear-gradient(rgba(200,0,0,.5), rgba(0,0,0,.5));
     color: white;
     font-size: 20px;
-    margin-top: -100px;
     margin-left: 350px;
-    padding-left: 10px;
     border-radius: 5px;
     height: 260px;
     width: 600px;
     display: inline-flexbox;
-    position: relative;
     border: 4px solid white;
 }
 
-.comment:hover{
+.firstslot:hover .comment{
     padding: 15px;
     transition: 1s;
     text-align: right;
     cursor: pointer;
+    margin-top: -150px;
+    background:linear-gradient(rgba(18, 86, 231, 0.5), rgba(102, 231, 214, 0.808));
+    
 }
 
 .secondslot{
     display: flex;
     gap: 25px;
     margin-left: 25px;
+    
     
 }
 .content{
